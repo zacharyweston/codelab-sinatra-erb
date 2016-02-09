@@ -1,0 +1,11 @@
+<img src='<%= params['picture'] %>'
+
+<p>Once upon a time, there was a person named <%= params['name'] %> who often read <%= params['author'] %>, especially their book <%= params['book'] %>. Their favorite genre was <%= params['genre'] %> and they loved the <%= params['word'] %> in the big <%= params['place'] %></p>
+
+<form action="http://formspree.io/zajawe@gmail.com" method="POST">
+  Name
+  <input name="contactName"><br>
+  Email
+  <input name="email"><br>
+  <button type="submission">Call Me. Please.</button>
+</form>
