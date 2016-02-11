@@ -4,8 +4,8 @@
 
 <form action="http://formspree.io/<%= params['email'] %>" method="POST">
   Name
-  <input name="contactName"><br>
+  <input name="contactName" placeholder="Name"><br>
   Email
-  <input name="replyEmail"><br>
-  <button type="submit">I'm Interested.</button>
+  <input type="email" name="_replyto" placeholder="Your email" /><br>
+  <button type="submit" value="Send">I'm Interested.</button>
 </form>
